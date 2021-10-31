@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import { Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import Service from "../Service/Service";
 import Spinner from "../../UI/Spinner/Spinner";
 import AOS from "aos";
@@ -22,7 +22,7 @@ const Services = () => {
   }, []);
 
   return (
-    <div className="my-5">
+    <Container className="my-5">
       <h1 className="display-1 my-5 services-header">Our Major services</h1>
       {loading ? (
         <Spinner />
@@ -33,7 +33,7 @@ const Services = () => {
           ))}
         </Row>
       )}
-    </div>
+    </Container>
   );
 };
 
