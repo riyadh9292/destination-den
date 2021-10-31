@@ -1,0 +1,17 @@
+.dynamicImage {
+  height: 800px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  transition: 2s linear;
+}
+@media only screen and (max-width: 480px) {
+  .dynamicImage {
+    height: 100vh;
+    background-size: cover;
+  }
+  .short-image-for-mobile {
+    height: 200px;
+  }
+}

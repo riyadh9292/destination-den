@@ -1,0 +1,6 @@
+.accordion-item {
+  width: 33.33%;
+}
+.accordion-button {
+  flex-direction: column;
+}

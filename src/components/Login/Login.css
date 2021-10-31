@@ -1,0 +1,33 @@
+.login-container {
+  position: relative;
+  background-image: url("https://i.ibb.co/MnysJ3p/78-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 480px;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .login-container {
+    min-height: 320px;
+    /* background-size: cover; */
+    background-position: top;
+  }
+}
+.login-system {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.google-login {
+  border: 1px solid tomato;
+  background-color: thistle;
+  border-radius: 30px;
+  opacity: 0.9;
+}
+.google-login:hover {
+  cursor: pointer;
+  opacity: 0.4;
+}

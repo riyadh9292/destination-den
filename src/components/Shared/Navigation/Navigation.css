@@ -1,0 +1,13 @@
+.navbar {
+  margin-top: 50px;
+  max-height: 300px;
+}
+.navbar-light {
+  background-color: #caaca9;
+}
+
+.navbar img {
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
